@@ -319,6 +319,7 @@ public class quizz_activity extends AppCompatActivity {
 
         }
 
+        rdg.clearCheck();
         displayScore(score);
         nextImageButton.setVisibility(View.VISIBLE);
 
@@ -330,6 +331,7 @@ public class quizz_activity extends AppCompatActivity {
     public void submitButtonClick(View view) {
 
         submitImageButton.setVisibility(View.INVISIBLE);
+
 
         checkAnswer();
 
