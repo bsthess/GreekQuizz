@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sea"
+    android:orientation="vertical"
+    tools:context="gr.xryalithes.greekquizz.FinalScoreActivity">
+
+    <TextView
+        android:id="@+id/nameTextViewFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alexander"
+        android:text="name"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/finalscoreTextViewFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alexander"
+        android:text="final score"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/correctanswersTextViewFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alexander"
+        android:text="correct answers"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alexander"
+        android:onClick="newGameButtonClick"
+        android:text="NEW GAME" />
+</LinearLayout>

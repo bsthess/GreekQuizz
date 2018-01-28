@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">GreekQuizz</string>
+    <string name="welcomeMessage">"Try your knowledge for Greece</string>
+    <string name="enterName">Please enter your name</string>
+    <string name="startButtonText">start</string>
+    <string name="youDidNotEnterPlayersName">You did not enter a name!</string>
+    <string name="ButtonNewGame">NEW GAME</string>
+    <string name="ButtonSubmit">SUBMIT</string>
+    <string name="QuestionNumberText">QUESTION:</string>
+    <string name="gameover">GAME OVER</string>
+    <string name="CorrectAnswer">Correct Answer! +10 points!</string>
+    <string name="WrongAnswer">Wrong Answer!</string>
+    <string name="PleaseMakeAChoice">Please make a choice!</string>
+    <string name="NextButton">NEXT</string>
+    <string name="CorrectAnswerIs"> Correct is :  </string>
+    <string name="PleaseTypeAnswer">Please type your answer!</string>
+    <string name="finalScore">Final score : </string>
+    <string name="correctAnswers">Correct answers : </string>
+
+    ///////////////////////////////////////////////FIRST ENTRY = QUESTION
+    NUMBER//////////////////////////////////
+    <string-array name="questionsArray">
+        <item>1,How many kilometers is the total coastline of Greece?</item>
+        <item>2,This island is...</item>
+        <item>3,One of the seven miracles of the world</item>
+        <item>4,The most famous sunset in the world can somebody watch in ...</item>
+        <item>5,Vikos is the name of the deepest gorge in the world with a depth of...</item>
+        <item>6,Marble statue found in the island of Milos and now stands in  Louvre</item>
+        <item>7,The golden larnax found in the tomb of...</item>
+        <item>8,Royal building with an age of 3700 years.</item>
+        <item>9,This bust represents... </item>
+        <item>10,Cities with ancient oracles</item>
+    </string-array>
+
+
+    ///////////////////////////////////////////FIRST ENTRY = QUESTION NUMBER,LAST ENTRY = CORRECT
+    ANSWER/////////////////////////
+    <string-array name="answersArray">
+        <item>1,2210 klm,4565 klm,13676 klm,3</item>
+        <item>2,Mykonos,Crete,Skiathos,1  </item>
+        <item>3,Parthenon,Akropolis,Sparta,1  </item>
+        <item>4,Rodos,Santorini,Paros,2</item>
+        <item>5,500 meters deep,800 meters deep,1100 meters  deep,3 </item>
+        <item>6,Athena,Venus,Diana,2</item>
+        <item>7,Philipp II,Alexander the Great,Leonidas,1</item>
+        <item>8,Palace of Knossos,Castle of the Knights in Rodos,Castle of Skiathos,1 </item>
+        <item>9,Alexander </item>
+        <item>10,Athens,Dodoni,Delfi,2,3 </item>
+
+
+    </string-array>
+
+</resources>
