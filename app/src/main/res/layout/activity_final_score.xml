@@ -7,16 +7,32 @@
     android:orientation="vertical"
     tools:context="gr.xryalithes.greekquizz.FinalScoreActivity">
 
+
     <TextView
+        android:padding="10dp"
+        android:id="@+id/messageTextViewFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/alexander"
+        android:text="message"
+        android:textColor="#263238"
+        android:textSize="40sp"
+
+        />
+
+    <TextView
+        android:padding="10dp"
         android:id="@+id/nameTextViewFinal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="100dp"
         android:fontFamily="@font/alexander"
         android:text="name"
         android:textColor="#FFFF"
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/finalscoreTextViewFinal"
@@ -38,12 +54,30 @@
         android:textColor="#FFFF"
         android:textSize="30sp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <Button
+        android:layout_marginLeft="60dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/alexander"
         android:onClick="newGameButtonClick"
         android:text="NEW GAME" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/alexander"
+            android:onClick="shareResults"
+
+            android:text="SHARE" />
+
+    </LinearLayout>
 </LinearLayout>

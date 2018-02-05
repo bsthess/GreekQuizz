@@ -34,7 +34,7 @@ public class quizz_activity extends AppCompatActivity {
 
     ////////////     declare  variables and views /////////////
     int correctAnswers;
-    int questionNumber;
+    int questionNumber ;
     int score;
 
     boolean submitImageButtonVisible;

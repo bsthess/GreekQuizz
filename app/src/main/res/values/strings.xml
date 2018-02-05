@@ -17,6 +17,11 @@
     <string name="PleaseTypeAnswer">Please type your answer!</string>
     <string name="finalScore">Final score : </string>
     <string name="correctAnswers">Correct answers : </string>
+    <string name="tryAgain">Try again!</string>
+    <string name="youCanBeBetter">You can be better!</string>
+    <string name="veryGood">Very good!</string>
+    <string name="Perfect">PERFECT 100% </string>
+    <string name="GreekGenius">Greek genius!</string>
 
     ///////////////////////////////////////////////FIRST ENTRY = QUESTION
     NUMBER//////////////////////////////////

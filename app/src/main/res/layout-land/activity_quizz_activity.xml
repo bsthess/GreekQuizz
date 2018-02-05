@@ -23,7 +23,7 @@
 
             <TextView
                 android:id="@+id/textViewUp"
-                android:layout_width="100dp"
+                android:layout_width="@dimen/land_nameTextViewWidth"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#01579B"
@@ -36,7 +36,7 @@
             <TextView
 
                 android:id="@+id/scoreTextView"
-                android:layout_width="40dp"
+                android:layout_width="@dimen/land_score_question_TextViewWidth"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
@@ -51,7 +51,7 @@
 
             <TextView
                 android:id="@+id/currentQuestionTextView"
-                android:layout_width="50dp"
+                android:layout_width="@dimen/land_score_question_TextViewWidth"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_weight="1"
@@ -68,14 +68,14 @@
         <RelativeLayout
 
             android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:layout_marginTop="10dp">
+            android:layout_height="@dimen/land_relativeLayoutHeight"
+            android:layout_marginTop="@dimen/land_relativeLayoutMarginTop">
 
             <ImageView
 
                 android:id="@+id/questionImage"
-                android:layout_width="220dp"
-                android:layout_height="140dp"
+                android:layout_width="@dimen/land_imageViewWidth"
+                android:layout_height="@dimen/land_imageViewheight"
                 android:layout_alignParentTop="true"
                 android:scaleType="fitCenter"
                 android:src="@drawable/parga" />
@@ -83,8 +83,8 @@
             <TextView
                 android:id="@+id/questionTextView"
                 android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:layout_marginLeft="10dp"
+                android:layout_height="@dimen/land_question_TextView_height"
+                android:layout_marginLeft="@dimen/land_question_TextView_marginLeft"
                 android:layout_toRightOf="@+id/questionImage"
                 android:background="#039BE5"
                 android:fontFamily="@font/alexander"
@@ -99,9 +99,9 @@
                 android:layout_marginTop="10dp"
                 android:id="@+id/radiogroup"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="@dimen/land_radiogroup_height"
                 android:layout_below="@+id/questionTextView"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="@dimen/land_radiogroup_marginLeft"
                 android:layout_toRightOf="@+id/questionImage"
                 android:orientation="vertical"
                 android:visibility="visible">
@@ -109,7 +109,7 @@
                 <android.support.v7.widget.AppCompatRadioButton
                     android:id="@+id/radioButton1"
                     android:layout_width="wrap_content"
-                    android:layout_height="25dp"
+                    android:layout_height="@dimen/land_radiobutton_height"
                     android:text="answer1 "
                     android:textColor="#1A237E"
                     app:buttonTint="#1A237E" />
@@ -117,8 +117,8 @@
                 <android.support.v7.widget.AppCompatRadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="wrap_content"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="@dimen/land_radiobutton_height"
+                    android:layout_marginTop="@dimen/land_radiobutton_marginTop"
                     android:text="answer2 "
                     android:textColor="#1A237E"
                     app:buttonTint="#1A237E" />
@@ -126,8 +126,8 @@
                 <android.support.v7.widget.AppCompatRadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="wrap_content"
-                    android:layout_height="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="@dimen/land_radiobutton_height"
+                    android:layout_marginTop="@dimen/land_radiobutton_marginTop"
                     android:text="answer3"
                     android:textColor="#1A237E"
                     app:buttonTint="#1A237E" />
@@ -139,10 +139,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
                 android:layout_below="@+id/questionTextView"
-                android:layout_marginBottom="50dp"
-                android:layout_marginLeft="70dp"
-                android:layout_marginRight="70dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginBottom="@dimen/land_editText_marginBottom"
+                android:layout_marginLeft="@dimen/land_editText_marginLeft"
+                android:layout_marginRight="@dimen/land_editText_marginRight"
+                android:layout_marginTop="@dimen/land_editText_marginTop"
                 android:layout_toRightOf="@+id/questionImage"
                 android:hint="Type your answer here"
                 android:maxLength="15"
@@ -154,10 +154,10 @@
             <CheckBox
                 android:id="@+id/checkbox1"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="@dimen/land_checkbox_height"
                 android:layout_below="@+id/questionTextView"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/land_checkbox_margin"
+                android:layout_marginTop="@dimen/land_checkbox_margin"
                 android:layout_toRightOf="@+id/questionImage"
                 android:buttonTint="@android:color/black"
                 android:text="checkbox1"
@@ -167,10 +167,10 @@
             <CheckBox
                 android:id="@+id/checkbox2"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="@dimen/land_checkbox_height"
                 android:layout_below="@+id/checkbox1"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/land_checkbox_margin"
+                android:layout_marginTop="@dimen/land_checkbox_margin"
                 android:layout_toRightOf="@id/questionImage"
                 android:buttonTint="@android:color/black"
                 android:text="checkbox2"
@@ -180,10 +180,10 @@
             <CheckBox
                 android:id="@+id/checkbox3"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
+                android:layout_height="@dimen/land_checkbox_height"
                 android:layout_below="@+id/checkbox2"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="@dimen/land_checkbox_margin"
+                android:layout_marginTop="@dimen/land_checkbox_margin"
                 android:layout_toRightOf="@+id/questionImage"
                 android:buttonTint="@android:color/black"
                 android:text="checkbox3"
@@ -194,18 +194,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-
+            android:layout_height="@dimen/land_bottom_linear_layout_height"
             android:orientation="horizontal">
 
 
             <ImageButton
                 android:id="@+id/newGameImageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_weight="0"
+                android:layout_width="@dimen/land_button_width"
+                android:layout_height="@dimen/land_button_height"
+                android:layout_marginLeft="@dimen/land_button_marginLeft"
+                android:layout_marginRight="@dimen/land_button_marginRight"
+                android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:background="@null"
                 android:onClick="newGameButtonClick"
@@ -216,10 +215,10 @@
             <ImageButton
 
                 android:id="@+id/submitImageButton"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
+                android:layout_width="@dimen/land_button_width"
+                android:layout_height="@dimen/land_button_height"
+                android:layout_marginLeft="@dimen/land_button_marginLeft"
+                android:layout_marginRight="@dimen/land_button_marginRight"
                 android:layout_weight="1"
                 android:background="@null"
                 android:onClick="submitButtonClick"
@@ -230,9 +229,10 @@
             <ImageButton
 
                 android:id="@+id/nextImageButton"
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_width="@dimen/land_button_width"
+                android:layout_height="@dimen/land_button_height"
+                android:layout_marginLeft="@dimen/land_button_marginLeft"
+                android:layout_marginRight="@dimen/land_button_marginRight"
                 android:layout_weight="1"
                 android:background="@null"
                 android:elevation="13dp"
